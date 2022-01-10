@@ -754,12 +754,14 @@ color: #232323;
   
 }
 .dd{
+  position: absolute;
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin-left: 8px;
   width: 370px;
-  height: 300px;
-  opacity: 1.0;
+  height: 280px;
+  z-index: 1000;
 }
 .s2{
   width: 360px;
